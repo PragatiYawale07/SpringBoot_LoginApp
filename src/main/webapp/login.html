@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+  .d1 input
+            {
+               border-top-color:gray;
+               width: 200px;
+               height: 25px;
+               margin: 2px;
+            }
+ </style>
+</head>
+<body bgcolor="pink" text="black">
+   <form action="/login">
+
+    Enter UserName:<input type="text" name="uname"><br>
+    Enter Password:<input type="text" name="pass"><br>
+    
+    <label for="UserType">UserType:</label><br>
+     Student: <input type="radio" name="usertype" value="Student">
+     Teacher: <input type="radio" name="usertype" value="Teacher">
+     Operation: <input type="radio" name="usertype" value="Operation"><br><br>
+     
+     <input type="submit" value="login"><br>
+     
+    <a href="/registerStudents">Register Student</a><br><br>
+    <a href="/registerTeacher">Register Teacher</a><br><br>
+    <a href="/registerOperation">Register Operation Department</a><br><br>
+    </form>
+</body>
+</html>
+
